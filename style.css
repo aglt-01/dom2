@@ -1,0 +1,21 @@
+.divCats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.divCats img{
+    width: 100%;
+    border-style: solid;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.cat {
+    width: 25%;
+}
+.cat p{
+    font-size: 2em;
+    font-family: sans-serif;
+}
